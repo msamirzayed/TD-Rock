@@ -1,6 +1,6 @@
 <template>
   <div v-if="showResult">
-    <p>{{ resultMessage }}</p>
+    <p>{{ resultMessage.toUpperCase() }}</p>
     <button @click="playAgain" class="play-again">Play Again</button>
   </div>
 </template>
@@ -48,14 +48,22 @@ div {
   &:hover {
     color: hsl(349, 71%, 52%);
   }
-}
-@media (max-width: 768px) {
-  .play-again {
-    margin: 0;
-    padding: 15px 30px;
-    width: 70%;
+  @media (max-width: 768px) {
+    .play-again {
+      margin: 0;
+      padding: 15px 30px;
+      width: 70%;
+    }
   }
 }
 
-
+p {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 10px;
+  font-size: xxx-large;
+  @media (max-width: 768px) {
+    font-size: xx-large;
+  }
+}
 </style>
