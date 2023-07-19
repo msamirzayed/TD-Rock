@@ -1,0 +1,12 @@
+@import "./mixins";
+@import "./fonts";
+// Variables
+$primary-color: hsl(214, 47%, 23%);
+$secondary-color: hsl(237, 49%, 15%);
+$score-title-color: hsl(229, 64%, 46%);
+$score-score-color: hsl(229, 25%, 31%);
+$player-rock-color: hsl(349, 71%, 52%);
+$player-scissors-color: hsl(39, 89%, 49%);
+$player-paper-color: hsl(230, 89%, 62%);
+$win-shadow-color: hsl(223.9deg 31.78% 25.29%);
+$inset-shadow: inset 3.7px 10px hsla(0, 0%, 3%, 0.219), 2px 9px;
