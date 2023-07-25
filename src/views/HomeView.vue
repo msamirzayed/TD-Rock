@@ -50,7 +50,7 @@ export default {
   width: 200px;
   color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .outline-button {
     bottom: 1px;
   }

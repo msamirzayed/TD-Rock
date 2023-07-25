@@ -38,4 +38,16 @@ export default {
   font-size: 3rem;
   font-weight: bold;
 }
+@media (max-width: 290px) {
+  .heading-container img {
+    width: 100px;
+  }
+}
+@media (max-width: 375px) {
+  .heading-container img {
+    width: 120px;
+  }
+}
+
+
 </style>

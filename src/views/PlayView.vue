@@ -60,13 +60,21 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 7vh;
-  cursor: pointer;
   align-items: stretch;
   gap: 3% 10%;
+  img{
+    cursor: pointer;
+  }
 }
 @media (max-width: 768px) {
   .play-card {
     margin-top: 0vh;
+  }
+}
+@media (max-width: 380px) {
+  .play-card {
+    margin-top: 0vh;
+    gap: 0% 0%;
   }
 }
 </style>

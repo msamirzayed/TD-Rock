@@ -53,6 +53,11 @@ export default {
     margin-top: 20%;
   }
 }
+@media (max-height: 601px) {
+  .modal {
+    margin-top: 5%;
+  }
+}
 .close {
   position: absolute;
   top: 32px;
